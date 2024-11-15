@@ -18,6 +18,7 @@ public class Day1UserdefinedDatatype {
 		
 		
 		
+		
 		System.out.println();
 		
 		
