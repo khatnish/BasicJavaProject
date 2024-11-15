@@ -18,14 +18,14 @@ public class Overloading {
 		 * static and final methods are not override only overload
 		 */   
 		
-		OverloadPractice o= new OverloadPractice(22);
-		OverloadPractice o1= new OverloadPractice(222);
+		OverloadPractice o= new OverloadPractice(22,"Nisha");
+//		OverloadPractice o1= new OverloadPractice(222,"nisha");
 		
-		o.dispaly("nisha");
-		o1.dispaly("yogesh", 30);
+		o.dispaly("Khatiwada");
+		o.dispaly("Khatiwada", "34 mountain ave", "07059");
 		
 	}
-	
+}
 	
 
 
@@ -41,11 +41,11 @@ class OverloadPractice{
 		this.age=age;
 	}
 	
-	public void dispaly(String lname) {
-		System.out.println(this.name+ " "+ lname);
+	public void dispaly(String lastName) {
+		System.out.println(name + " "+lastName+ " Age:"+age);
 	}
 	
-	public void dispaly(String lname, int age) {
-		System.out.println(this.name+ " "+ lname + " "+ age);
+	public void dispaly(String lastName, String address, String zipCode) {
+		System.out.println(name+ " "+ lastName + " Age: "+ age+ " "+address+ ", "+zipCode);
 	}
 }
