@@ -29,8 +29,7 @@ public class Overriding {
 		
 		Animal ac=new Cat();
 		ac.sound();
-		
-		
+		                          
 	}
 
 }
