@@ -82,7 +82,7 @@ public class AbstractClass {
 		@Override
 		public void displayName() {
 
-			System.out.println(this.firstName+this.lastNmae);
+			System.out.println(firstName+lastNmae);
 		}
 		public void displayRollNo() {
 			System.out.println(rollNo);
